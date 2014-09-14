@@ -10,7 +10,8 @@ For more information - click [here](http://archive.ics.uci.edu/ml/datasets/Human
 
 ## Assignment description
 
-You should create one R script called run_analysis.R that does the following. 
+You should create one R script called run_analysis.R that does the following:
+
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 3. Uses descriptive activity names to name the activities in the data set
@@ -34,7 +35,7 @@ run_analysis.R creates 1 file:
 
 * tidy_dataset.txt: a tab-delimited file containing tidy data set with the mean of each variable for each activity and each subject
 
- To access the result type follow in R: `read.table("tidy_dataset.txt", header=TRUE)`
+To access the result type following in R: `read.table("tidy_dataset.txt", header=TRUE)`
 
 ## Code Book
 
