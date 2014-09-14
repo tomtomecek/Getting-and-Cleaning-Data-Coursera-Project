@@ -11,6 +11,14 @@ For information about the experiment and the way data was collected, please read
 All the column names are described in features_info.txt data source zip file, except for the following:
 
 * activity: the string representing an activity of the subject
+
+LAYING
+SITTING
+STANDING
+WALKING
+WALKING_UPSTAIRS
+WALKING_DOWNSTAIRS
+
 * subject_id: the integer corresponding to the subject of the experiment
 * Rules applied to the other columns by script (run_analysis.R)
  :it removes extra dots and 
